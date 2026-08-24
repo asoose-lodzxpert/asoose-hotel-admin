@@ -1,0 +1,14 @@
+{
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/bank-accounts/route": "app/api/bank-accounts/route.js",
+  "/api/bookings/route": "app/api/bookings/route.js",
+  "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/api/earnings/balance/route": "app/api/earnings/balance/route.js",
+  "/api/earnings/transactions/route": "app/api/earnings/transactions/route.js",
+  "/api/locations/route": "app/api/locations/route.js",
+  "/api/owner/route": "app/api/owner/route.js",
+  "/api/properties/route": "app/api/properties/route.js",
+  "/api/property-types/route": "app/api/property-types/route.js",
+  "/api/session/route": "app/api/session/route.js",
+  "/page": "app/page.js"
+}

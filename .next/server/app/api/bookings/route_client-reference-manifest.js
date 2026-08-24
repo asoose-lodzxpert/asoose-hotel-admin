@@ -1,0 +1,1 @@
+globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/api/bookings/route"]={"moduleLoading":{"prefix":"/_next/"},"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"/Users/macbookpro/StudioProjects/asoose-hotel-dashbaord/app/api/bookings/route":[]},"rscModuleMapping":{},"edgeRscModuleMapping":{}};

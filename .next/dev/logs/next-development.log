@@ -1,0 +1,4 @@
+{"timestamp":"00:00:01.220","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:11.422","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:39:02.510","source":"Browser","level":"WARN","message":"Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"}
+{"timestamp":"00:39:02.528","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGoogle Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading\\u001b[39m\" \"\\u001b[2m(https://maps.googleapis.com/maps/api/js?key=AIzaSyB80o8RmwJLnbmEmU6RoLN8QpFve6GgkBw&v=weekly:330:325)\\u001b[22m\""}

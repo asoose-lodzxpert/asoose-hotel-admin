@@ -1,0 +1,3 @@
+{
+  "/api/properties/[propertyId]/room-types/route": "app/api/properties/[propertyId]/room-types/route.js"
+}

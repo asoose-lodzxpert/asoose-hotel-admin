@@ -187,12 +187,6 @@
       "regex": "^/api/uploads(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/uploads(?:/)?$"
-    },
-    {
-      "page": "/favicon.ico",
-      "regex": "^/favicon\\.ico(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/favicon\\.ico(?:/)?$"
     }
   ],
   "dataRoutes": [],

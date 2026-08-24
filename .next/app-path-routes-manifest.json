@@ -1,6 +1,6 @@
 {
-  "/_not-found/page": "/_not-found",
   "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
   "/api/auth/login/route": "/api/auth/login",
   "/api/auth/logout/route": "/api/auth/logout",
   "/api/bank-accounts/[bankAccountId]/route": "/api/bank-accounts/[bankAccountId]",
@@ -23,6 +23,5 @@
   "/api/property-types/route": "/api/property-types",
   "/api/session/route": "/api/session",
   "/api/uploads/route": "/api/uploads",
-  "/favicon.ico/route": "/favicon.ico",
   "/page": "/"
 }

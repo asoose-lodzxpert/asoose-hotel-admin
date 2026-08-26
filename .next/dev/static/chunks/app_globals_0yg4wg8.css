@@ -271,6 +271,14 @@
   .grid {
     display: grid;
   }
+
+  .lowercase {
+    text-transform: lowercase;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
 }
 
 :root {
@@ -3542,6 +3550,12 @@ button.booking-row:hover {
   font-weight: 700;
 }
 
+.profile-content {
+  gap: 16px;
+  min-width: 0;
+  display: grid;
+}
+
 .profile-form {
   overflow: hidden;
 }
@@ -3650,6 +3664,40 @@ button.booking-row:hover {
   padding: 11px 14px;
   font-size: 11px;
   display: flex;
+}
+
+.security-form .form-section {
+  border-bottom: 0;
+}
+
+.security-message {
+  margin-top: 0;
+}
+
+.password-grid {
+  align-items: end;
+}
+
+.show-passwords {
+  color: #68746e;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  font-size: 10px;
+  display: flex;
+}
+
+.show-passwords input {
+  width: 14px;
+  height: 14px;
+  accent-color: var(--green);
+}
+
+.password-requirements {
+  color: #7f8a84;
+  margin: 16px 0 0;
+  font-size: 9px;
+  line-height: 1.5;
 }
 
 .profile-loading {

@@ -597,14 +597,93 @@ function ProfilePage() {
     {error && <div className="form-error">{error}</div>}
     <section className="profile-layout">
       <aside className="panel profile-summary"><div className="large-avatar">{initials}</div><h2>{titleCase(profile.fullName)}</h2><p>{profile.userEmail}</p><span className="verified-badge"><Icon name="check" size={14}/> Verified owner</span><div className="summary-divider"/><dl><div><dt>Member since</dt><dd>{new Intl.DateTimeFormat("en", { month: "long", year: "numeric" }).format(new Date(profile.createdAt))}</dd></div><div><dt>Commission rate</dt><dd>{profile.customCommissionPercent}%</dd></div></dl></aside>
-      <form className="panel profile-form" onSubmit={save}>
-        <div className="form-section"><div className="section-title"><span><Icon name="user"/></span><div><h2>Personal information</h2><p>Information linked to your Asoose account</p></div></div><div className="field-grid"><InfoField label="Full name" value={profile.fullName}/><InfoField label="Email address" value={profile.userEmail} icon="mail"/><InfoField label="Phone number" value={profile.userPhone} icon="phone"/><InfoField label="Account role" value="Property owner"/></div></div>
-        <div className="form-section"><div className="section-title"><span><Icon name="building"/></span><div><h2>Business details</h2><p>Details shown across your owner profile</p></div></div><div className="field-grid"><EditableField label="Business name" value={draft.businessName} disabled={!editing} onChange={(v) => field("businessName", v)}/><EditableField label="Business email" type="email" value={draft.businessEmail} disabled={!editing} onChange={(v) => field("businessEmail", v)}/><EditableField label="Business phone" value={draft.businessPhone} disabled={!editing} onChange={(v) => field("businessPhone", v)}/><label className="form-field full"><span>Business description</span><textarea value={draft.businessDescription} disabled={!editing} onChange={(e) => field("businessDescription", e.target.value)} rows={4}/></label></div></div>
-        <div className="form-section"><div className="section-title"><span><Icon name="map"/></span><div><h2>Business address</h2><p>Your primary operating address in Nigeria</p></div></div><div className="field-grid"><StreetAddressAutocomplete value={draft.address.street} disabled={!editing} onChange={(value) => addressField("street", value)} onSelect={selectStreet}/><label className="form-field"><span>City</span><select value={draft.address.city} disabled={!editing} onChange={(event) => chooseCity(event.target.value)}><option value="">Select a city</option>{draft.address.city && !cities.some((city) => city.name === draft.address.city) && <option value={draft.address.city}>{draft.address.city}</option>}{cities.map((city) => <option key={city.id} value={city.name}>{city.name}</option>)}</select></label><EditableField label="State" value={draft.address.state} disabled onChange={() => undefined}/></div></div>
-        {editing && <div className="form-actions"><button type="button" className="secondary-button" onClick={() => { setDraft(profile); setEditing(false); setError(""); }}>Cancel</button><button className="primary-button" disabled={saving}>{saving ? "Saving changes…" : "Save changes"}</button></div>}
-      </form>
+      <div className="profile-content">
+        <form className="panel profile-form" onSubmit={save}>
+          <div className="form-section"><div className="section-title"><span><Icon name="user"/></span><div><h2>Personal information</h2><p>Information linked to your Asoose account</p></div></div><div className="field-grid"><InfoField label="Full name" value={profile.fullName}/><InfoField label="Email address" value={profile.userEmail} icon="mail"/><InfoField label="Phone number" value={profile.userPhone} icon="phone"/><InfoField label="Account role" value="Property owner"/></div></div>
+          <div className="form-section"><div className="section-title"><span><Icon name="building"/></span><div><h2>Business details</h2><p>Details shown across your owner profile</p></div></div><div className="field-grid"><EditableField label="Business name" value={draft.businessName} disabled={!editing} onChange={(v) => field("businessName", v)}/><EditableField label="Business email" type="email" value={draft.businessEmail} disabled={!editing} onChange={(v) => field("businessEmail", v)}/><EditableField label="Business phone" value={draft.businessPhone} disabled={!editing} onChange={(v) => field("businessPhone", v)}/><label className="form-field full"><span>Business description</span><textarea value={draft.businessDescription} disabled={!editing} onChange={(e) => field("businessDescription", e.target.value)} rows={4}/></label></div></div>
+          <div className="form-section"><div className="section-title"><span><Icon name="map"/></span><div><h2>Business address</h2><p>Your primary operating address in Nigeria</p></div></div><div className="field-grid"><StreetAddressAutocomplete value={draft.address.street} disabled={!editing} onChange={(value) => addressField("street", value)} onSelect={selectStreet}/><label className="form-field"><span>City</span><select value={draft.address.city} disabled={!editing} onChange={(event) => chooseCity(event.target.value)}><option value="">Select a city</option>{draft.address.city && !cities.some((city) => city.name === draft.address.city) && <option value={draft.address.city}>{draft.address.city}</option>}{cities.map((city) => <option key={city.id} value={city.name}>{city.name}</option>)}</select></label><EditableField label="State" value={draft.address.state} disabled onChange={() => undefined}/></div></div>
+          {editing && <div className="form-actions"><button type="button" className="secondary-button" onClick={() => { setDraft(profile); setEditing(false); setError(""); }}>Cancel</button><button className="primary-button" disabled={saving}>{saving ? "Saving changes…" : "Save changes"}</button></div>}
+        </form>
+        <ChangePasswordSection/>
+      </div>
     </section>
   </>;
+}
+
+function ChangePasswordSection() {
+  const [currentPassword, setCurrentPassword] = useState("");
+  const [newPassword, setNewPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [showPasswords, setShowPasswords] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState("");
+  const [message, setMessage] = useState("");
+
+  const passwordValid = newPassword.length >= 8
+    && newPassword.length <= 128
+    && /[a-z]/.test(newPassword)
+    && /[A-Z]/.test(newPassword)
+    && /\d/.test(newPassword);
+
+  async function submit(event: FormEvent) {
+    event.preventDefault();
+    setError("");
+    setMessage("");
+
+    if (currentPassword.length < 8 || currentPassword.length > 128) {
+      setError("Current password must be between 8 and 128 characters.");
+      return;
+    }
+    if (!passwordValid) {
+      setError("New password must be 8–128 characters and include an uppercase letter, a lowercase letter, and a number.");
+      return;
+    }
+    if (newPassword === currentPassword) {
+      setError("New password must be different from your current password.");
+      return;
+    }
+    if (confirmPassword !== newPassword) {
+      setError("New password and confirmation do not match.");
+      return;
+    }
+
+    setSaving(true);
+    try {
+      await request<null>("/api/change-password", {
+        method: "POST",
+        body: JSON.stringify({ currentPassword, newPassword }),
+      });
+      setCurrentPassword("");
+      setNewPassword("");
+      setConfirmPassword("");
+      setMessage("Password changed successfully.");
+    } catch (reason) {
+      setError(reason instanceof Error ? reason.message : "Unable to change your password.");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  const inputType = showPasswords ? "text" : "password";
+  return <form className="panel profile-form security-form" onSubmit={submit}>
+    <div className="form-section">
+      <div className="section-title"><span><Icon name="shield"/></span><div><h2>Change password</h2><p>Use a strong, unique password to protect your account</p></div></div>
+      {message && <div className="success-toast security-message" role="status"><Icon name="check" size={17}/>{message}</div>}
+      {error && <div className="form-error" role="alert">{error}</div>}
+      <div className="field-grid password-grid">
+        <PasswordField label="Current password" value={currentPassword} type={inputType} autoComplete="current-password" onChange={setCurrentPassword}/>
+        <PasswordField label="New password" value={newPassword} type={inputType} autoComplete="new-password" onChange={setNewPassword}/>
+        <PasswordField label="Confirm new password" value={confirmPassword} type={inputType} autoComplete="new-password" onChange={setConfirmPassword}/>
+        <label className="show-passwords"><input type="checkbox" checked={showPasswords} onChange={(event) => setShowPasswords(event.target.checked)}/> Show passwords</label>
+      </div>
+      <p className="password-requirements">8–128 characters, with at least one uppercase letter, one lowercase letter, and one number.</p>
+    </div>
+    <div className="form-actions"><button className="primary-button" disabled={saving || !currentPassword || !newPassword || !confirmPassword}>{saving ? "Changing password…" : "Change password"}</button></div>
+  </form>;
+}
+
+function PasswordField({ label, value, type, autoComplete, onChange }: { label: string; value: string; type: "text" | "password"; autoComplete: string; onChange: (value: string) => void }) {
+  return <label className="form-field"><span>{label}</span><input type={type} value={value} minLength={8} maxLength={128} autoComplete={autoComplete} onChange={(event) => onChange(event.target.value)} required/></label>;
 }
 
 function InfoField({ label, value, icon }: { label: string; value: string; icon?: IconName }) { return <div className="info-field"><span>{label}</span><p>{icon && <Icon name={icon} size={16}/>} {value || "Not provided"}</p></div>; }

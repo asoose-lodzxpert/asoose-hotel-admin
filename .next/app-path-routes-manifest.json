@@ -10,6 +10,7 @@
   "/api/bookings/[bookingId]/[action]/route": "/api/bookings/[bookingId]/[action]",
   "/api/bookings/[bookingId]/route": "/api/bookings/[bookingId]",
   "/api/bookings/route": "/api/bookings",
+  "/api/change-password/route": "/api/change-password",
   "/api/dashboard/route": "/api/dashboard",
   "/api/earnings/balance/route": "/api/earnings/balance",
   "/api/earnings/payout/route": "/api/earnings/payout",

@@ -12,7 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ui$2f$map$2d$picker$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/ui/map-picker.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ui$2f$street$2d$address$2d$autocomplete$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/ui/street-address-autocomplete.tsx [app-client] (ecmascript)");
 ;
-var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature(), _s2 = __turbopack_context__.k.signature(), _s3 = __turbopack_context__.k.signature(), _s4 = __turbopack_context__.k.signature(), _s5 = __turbopack_context__.k.signature(), _s6 = __turbopack_context__.k.signature(), _s7 = __turbopack_context__.k.signature(), _s8 = __turbopack_context__.k.signature(), _s9 = __turbopack_context__.k.signature(), _s10 = __turbopack_context__.k.signature(), _s11 = __turbopack_context__.k.signature();
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature(), _s2 = __turbopack_context__.k.signature(), _s3 = __turbopack_context__.k.signature(), _s4 = __turbopack_context__.k.signature(), _s5 = __turbopack_context__.k.signature(), _s6 = __turbopack_context__.k.signature(), _s7 = __turbopack_context__.k.signature(), _s8 = __turbopack_context__.k.signature(), _s9 = __turbopack_context__.k.signature(), _s10 = __turbopack_context__.k.signature(), _s11 = __turbopack_context__.k.signature(), _s12 = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
@@ -7939,99 +7939,392 @@ function ProfilePage() {
                         lineNumber: 599,
                         columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                        className: "panel profile-form",
-                        onSubmit: save,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "profile-content",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "form-section",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                                className: "panel profile-form",
+                                onSubmit: save,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "section-title",
+                                        className: "form-section",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                                    name: "user"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/ui/asoose-app.tsx",
-                                                    lineNumber: 601,
-                                                    columnNumber: 76
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 601,
-                                                columnNumber: 70
-                                            }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "section-title",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                        children: "Personal information"
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                                            name: "user"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/ui/asoose-app.tsx",
+                                                            lineNumber: 602,
+                                                            columnNumber: 78
+                                                        }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 601,
-                                                        columnNumber: 107
+                                                        lineNumber: 602,
+                                                        columnNumber: 72
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: "Information linked to your Asoose account"
-                                                    }, void 0, false, {
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                                children: "Personal information"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 602,
+                                                                columnNumber: 109
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                children: "Information linked to your Asoose account"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 602,
+                                                                columnNumber: 138
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 601,
-                                                        columnNumber: 136
+                                                        lineNumber: 602,
+                                                        columnNumber: 104
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 601,
-                                                columnNumber: 102
+                                                lineNumber: 602,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "field-grid",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
+                                                        label: "Full name",
+                                                        value: profile.fullName
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 602,
+                                                        columnNumber: 226
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
+                                                        label: "Email address",
+                                                        value: profile.userEmail,
+                                                        icon: "mail"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 602,
+                                                        columnNumber: 281
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
+                                                        label: "Phone number",
+                                                        value: profile.userPhone,
+                                                        icon: "phone"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 602,
+                                                        columnNumber: 353
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
+                                                        label: "Account role",
+                                                        value: "Property owner"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 602,
+                                                        columnNumber: 425
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                lineNumber: 602,
+                                                columnNumber: 198
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 601,
-                                        columnNumber: 39
+                                        lineNumber: 602,
+                                        columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "field-grid",
+                                        className: "form-section",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
-                                                label: "Full name",
-                                                value: profile.fullName
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "section-title",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                                            name: "building"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/ui/asoose-app.tsx",
+                                                            lineNumber: 603,
+                                                            columnNumber: 78
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 603,
+                                                        columnNumber: 72
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                                children: "Business details"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 603,
+                                                                columnNumber: 113
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                children: "Details shown across your owner profile"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 603,
+                                                                columnNumber: 138
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 603,
+                                                        columnNumber: 108
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 601,
-                                                columnNumber: 224
+                                                lineNumber: 603,
+                                                columnNumber: 41
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
-                                                label: "Email address",
-                                                value: profile.userEmail,
-                                                icon: "mail"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "field-grid",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
+                                                        label: "Business name",
+                                                        value: draft.businessName,
+                                                        disabled: !editing,
+                                                        onChange: (v)=>field("businessName", v)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 603,
+                                                        columnNumber: 224
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
+                                                        label: "Business email",
+                                                        type: "email",
+                                                        value: draft.businessEmail,
+                                                        disabled: !editing,
+                                                        onChange: (v)=>field("businessEmail", v)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 603,
+                                                        columnNumber: 352
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
+                                                        label: "Business phone",
+                                                        value: draft.businessPhone,
+                                                        disabled: !editing,
+                                                        onChange: (v)=>field("businessPhone", v)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 603,
+                                                        columnNumber: 496
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                        className: "form-field full",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "Business description"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 603,
+                                                                columnNumber: 662
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                                                value: draft.businessDescription,
+                                                                disabled: !editing,
+                                                                onChange: (e)=>field("businessDescription", e.target.value),
+                                                                rows: 4
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 603,
+                                                                columnNumber: 695
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 603,
+                                                        columnNumber: 627
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 601,
-                                                columnNumber: 279
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
-                                                label: "Phone number",
-                                                value: profile.userPhone,
-                                                icon: "phone"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 601,
-                                                columnNumber: 351
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoField, {
-                                                label: "Account role",
-                                                value: "Property owner"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 601,
-                                                columnNumber: 423
+                                                lineNumber: 603,
+                                                columnNumber: 196
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 601,
-                                        columnNumber: 196
+                                        lineNumber: 603,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "form-section",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "section-title",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                                            name: "map"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/ui/asoose-app.tsx",
+                                                            lineNumber: 604,
+                                                            columnNumber: 78
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 604,
+                                                        columnNumber: 72
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                                children: "Business address"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 604,
+                                                                columnNumber: 108
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                children: "Your primary operating address in Nigeria"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 604,
+                                                                columnNumber: 133
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 604,
+                                                        columnNumber: 103
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                lineNumber: 604,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "field-grid",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ui$2f$street$2d$address$2d$autocomplete$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        value: draft.address.street,
+                                                        disabled: !editing,
+                                                        onChange: (value)=>addressField("street", value),
+                                                        onSelect: selectStreet
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 604,
+                                                        columnNumber: 221
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                        className: "form-field",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "City"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 604,
+                                                                columnNumber: 404
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                                value: draft.address.city,
+                                                                disabled: !editing,
+                                                                onChange: (event)=>chooseCity(event.target.value),
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                        value: "",
+                                                                        children: "Select a city"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                        lineNumber: 604,
+                                                                        columnNumber: 529
+                                                                    }, this),
+                                                                    draft.address.city && !cities.some((city)=>city.name === draft.address.city) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                        value: draft.address.city,
+                                                                        children: draft.address.city
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                        lineNumber: 604,
+                                                                        columnNumber: 651
+                                                                    }, this),
+                                                                    cities.map((city)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                            value: city.name,
+                                                                            children: city.name
+                                                                        }, city.id, false, {
+                                                                            fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                            lineNumber: 604,
+                                                                            columnNumber: 738
+                                                                        }, this))
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                                lineNumber: 604,
+                                                                columnNumber: 421
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 604,
+                                                        columnNumber: 374
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
+                                                        label: "State",
+                                                        value: draft.address.state,
+                                                        disabled: true,
+                                                        onChange: ()=>undefined
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                                        lineNumber: 604,
+                                                        columnNumber: 817
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                lineNumber: 604,
+                                                columnNumber: 193
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                        lineNumber: 604,
+                                        columnNumber: 11
+                                    }, this),
+                                    editing && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "form-actions",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                type: "button",
+                                                className: "secondary-button",
+                                                onClick: ()=>{
+                                                    setDraft(profile);
+                                                    setEditing(false);
+                                                    setError("");
+                                                },
+                                                children: "Cancel"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                lineNumber: 605,
+                                                columnNumber: 53
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                className: "primary-button",
+                                                disabled: saving,
+                                                children: saving ? "Saving changes…" : "Save changes"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                                lineNumber: 605,
+                                                columnNumber: 191
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                        lineNumber: 605,
+                                        columnNumber: 23
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -8039,289 +8332,10 @@ function ProfilePage() {
                                 lineNumber: 601,
                                 columnNumber: 9
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "form-section",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "section-title",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                                    name: "building"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/ui/asoose-app.tsx",
-                                                    lineNumber: 602,
-                                                    columnNumber: 76
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 602,
-                                                columnNumber: 70
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                        children: "Business details"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 602,
-                                                        columnNumber: 111
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: "Details shown across your owner profile"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 602,
-                                                        columnNumber: 136
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 602,
-                                                columnNumber: 106
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 602,
-                                        columnNumber: 39
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "field-grid",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
-                                                label: "Business name",
-                                                value: draft.businessName,
-                                                disabled: !editing,
-                                                onChange: (v)=>field("businessName", v)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 602,
-                                                columnNumber: 222
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
-                                                label: "Business email",
-                                                type: "email",
-                                                value: draft.businessEmail,
-                                                disabled: !editing,
-                                                onChange: (v)=>field("businessEmail", v)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 602,
-                                                columnNumber: 350
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
-                                                label: "Business phone",
-                                                value: draft.businessPhone,
-                                                disabled: !editing,
-                                                onChange: (v)=>field("businessPhone", v)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 602,
-                                                columnNumber: 494
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                className: "form-field full",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "Business description"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 602,
-                                                        columnNumber: 660
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                                        value: draft.businessDescription,
-                                                        disabled: !editing,
-                                                        onChange: (e)=>field("businessDescription", e.target.value),
-                                                        rows: 4
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 602,
-                                                        columnNumber: 693
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 602,
-                                                columnNumber: 625
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 602,
-                                        columnNumber: 194
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChangePasswordSection, {}, void 0, false, {
                                 fileName: "[project]/app/ui/asoose-app.tsx",
-                                lineNumber: 602,
+                                lineNumber: 607,
                                 columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "form-section",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "section-title",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                                    name: "map"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/ui/asoose-app.tsx",
-                                                    lineNumber: 603,
-                                                    columnNumber: 76
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 603,
-                                                columnNumber: 70
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                        children: "Business address"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 603,
-                                                        columnNumber: 106
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: "Your primary operating address in Nigeria"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 603,
-                                                        columnNumber: 131
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 603,
-                                                columnNumber: 101
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 603,
-                                        columnNumber: 39
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "field-grid",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ui$2f$street$2d$address$2d$autocomplete$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                value: draft.address.street,
-                                                disabled: !editing,
-                                                onChange: (value)=>addressField("street", value),
-                                                onSelect: selectStreet
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 603,
-                                                columnNumber: 219
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                className: "form-field",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "City"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 603,
-                                                        columnNumber: 402
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                        value: draft.address.city,
-                                                        disabled: !editing,
-                                                        onChange: (event)=>chooseCity(event.target.value),
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                value: "",
-                                                                children: "Select a city"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                                lineNumber: 603,
-                                                                columnNumber: 527
-                                                            }, this),
-                                                            draft.address.city && !cities.some((city)=>city.name === draft.address.city) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                value: draft.address.city,
-                                                                children: draft.address.city
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                                lineNumber: 603,
-                                                                columnNumber: 649
-                                                            }, this),
-                                                            cities.map((city)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                    value: city.name,
-                                                                    children: city.name
-                                                                }, city.id, false, {
-                                                                    fileName: "[project]/app/ui/asoose-app.tsx",
-                                                                    lineNumber: 603,
-                                                                    columnNumber: 736
-                                                                }, this))
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                                        lineNumber: 603,
-                                                        columnNumber: 419
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 603,
-                                                columnNumber: 372
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EditableField, {
-                                                label: "State",
-                                                value: draft.address.state,
-                                                disabled: true,
-                                                onChange: ()=>undefined
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                                lineNumber: 603,
-                                                columnNumber: 815
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 603,
-                                        columnNumber: 191
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                lineNumber: 603,
-                                columnNumber: 9
-                            }, this),
-                            editing && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "form-actions",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        type: "button",
-                                        className: "secondary-button",
-                                        onClick: ()=>{
-                                            setDraft(profile);
-                                            setEditing(false);
-                                            setError("");
-                                        },
-                                        children: "Cancel"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 604,
-                                        columnNumber: 51
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "primary-button",
-                                        disabled: saving,
-                                        children: saving ? "Saving changes…" : "Save changes"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/ui/asoose-app.tsx",
-                                        lineNumber: 604,
-                                        columnNumber: 189
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/ui/asoose-app.tsx",
-                                lineNumber: 604,
-                                columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
@@ -8344,6 +8358,267 @@ function ProfilePage() {
 }
 _s11(ProfilePage, "NwlnflzYSgEpG6JG+OwSJat+0XI=");
 _c22 = ProfilePage;
+function ChangePasswordSection() {
+    _s12();
+    const [currentPassword, setCurrentPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [newPassword, setNewPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [confirmPassword, setConfirmPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [showPasswords, setShowPasswords] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [saving, setSaving] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [message, setMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const passwordValid = newPassword.length >= 8 && newPassword.length <= 128 && /[a-z]/.test(newPassword) && /[A-Z]/.test(newPassword) && /\d/.test(newPassword);
+    async function submit(event) {
+        event.preventDefault();
+        setError("");
+        setMessage("");
+        if (currentPassword.length < 8 || currentPassword.length > 128) {
+            setError("Current password must be between 8 and 128 characters.");
+            return;
+        }
+        if (!passwordValid) {
+            setError("New password must be 8–128 characters and include an uppercase letter, a lowercase letter, and a number.");
+            return;
+        }
+        if (newPassword === currentPassword) {
+            setError("New password must be different from your current password.");
+            return;
+        }
+        if (confirmPassword !== newPassword) {
+            setError("New password and confirmation do not match.");
+            return;
+        }
+        setSaving(true);
+        try {
+            await request("/api/change-password", {
+                method: "POST",
+                body: JSON.stringify({
+                    currentPassword,
+                    newPassword
+                })
+            });
+            setCurrentPassword("");
+            setNewPassword("");
+            setConfirmPassword("");
+            setMessage("Password changed successfully.");
+        } catch (reason) {
+            setError(reason instanceof Error ? reason.message : "Unable to change your password.");
+        } finally{
+            setSaving(false);
+        }
+    }
+    const inputType = showPasswords ? "text" : "password";
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+        className: "panel profile-form security-form",
+        onSubmit: submit,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "form-section",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "section-title",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                    name: "shield"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/ui/asoose-app.tsx",
+                                    lineNumber: 670,
+                                    columnNumber: 44
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                lineNumber: 670,
+                                columnNumber: 38
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        children: "Change password"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                        lineNumber: 670,
+                                        columnNumber: 77
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        children: "Use a strong, unique password to protect your account"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                        lineNumber: 670,
+                                        columnNumber: 101
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                lineNumber: 670,
+                                columnNumber: 72
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/ui/asoose-app.tsx",
+                        lineNumber: 670,
+                        columnNumber: 7
+                    }, this),
+                    message && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "success-toast security-message",
+                        role: "status",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                name: "check",
+                                size: 17
+                            }, void 0, false, {
+                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                lineNumber: 671,
+                                columnNumber: 81
+                            }, this),
+                            message
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/ui/asoose-app.tsx",
+                        lineNumber: 671,
+                        columnNumber: 19
+                    }, this),
+                    error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "form-error",
+                        role: "alert",
+                        children: error
+                    }, void 0, false, {
+                        fileName: "[project]/app/ui/asoose-app.tsx",
+                        lineNumber: 672,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "field-grid password-grid",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PasswordField, {
+                                label: "Current password",
+                                value: currentPassword,
+                                type: inputType,
+                                autoComplete: "current-password",
+                                onChange: setCurrentPassword
+                            }, void 0, false, {
+                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                lineNumber: 674,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PasswordField, {
+                                label: "New password",
+                                value: newPassword,
+                                type: inputType,
+                                autoComplete: "new-password",
+                                onChange: setNewPassword
+                            }, void 0, false, {
+                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                lineNumber: 675,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PasswordField, {
+                                label: "Confirm new password",
+                                value: confirmPassword,
+                                type: inputType,
+                                autoComplete: "new-password",
+                                onChange: setConfirmPassword
+                            }, void 0, false, {
+                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                lineNumber: 676,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                className: "show-passwords",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        type: "checkbox",
+                                        checked: showPasswords,
+                                        onChange: (event)=>setShowPasswords(event.target.checked)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/ui/asoose-app.tsx",
+                                        lineNumber: 677,
+                                        columnNumber: 43
+                                    }, this),
+                                    " Show passwords"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/ui/asoose-app.tsx",
+                                lineNumber: 677,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/ui/asoose-app.tsx",
+                        lineNumber: 673,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "password-requirements",
+                        children: "8–128 characters, with at least one uppercase letter, one lowercase letter, and one number."
+                    }, void 0, false, {
+                        fileName: "[project]/app/ui/asoose-app.tsx",
+                        lineNumber: 679,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/ui/asoose-app.tsx",
+                lineNumber: 669,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "form-actions",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    className: "primary-button",
+                    disabled: saving || !currentPassword || !newPassword || !confirmPassword,
+                    children: saving ? "Changing password…" : "Change password"
+                }, void 0, false, {
+                    fileName: "[project]/app/ui/asoose-app.tsx",
+                    lineNumber: 681,
+                    columnNumber: 35
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/ui/asoose-app.tsx",
+                lineNumber: 681,
+                columnNumber: 5
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/ui/asoose-app.tsx",
+        lineNumber: 668,
+        columnNumber: 10
+    }, this);
+}
+_s12(ChangePasswordSection, "Pb3yVfVdcamkhfoBBGFSEZUgOy8=");
+_c23 = ChangePasswordSection;
+function PasswordField({ label, value, type, autoComplete, onChange }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+        className: "form-field",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                children: label
+            }, void 0, false, {
+                fileName: "[project]/app/ui/asoose-app.tsx",
+                lineNumber: 686,
+                columnNumber: 40
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                type: type,
+                value: value,
+                minLength: 8,
+                maxLength: 128,
+                autoComplete: autoComplete,
+                onChange: (event)=>onChange(event.target.value),
+                required: true
+            }, void 0, false, {
+                fileName: "[project]/app/ui/asoose-app.tsx",
+                lineNumber: 686,
+                columnNumber: 60
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/ui/asoose-app.tsx",
+        lineNumber: 686,
+        columnNumber: 10
+    }, this);
+}
+_c24 = PasswordField;
 function InfoField({ label, value, icon }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "info-field",
@@ -8352,7 +8627,7 @@ function InfoField({ label, value, icon }) {
                 children: label
             }, void 0, false, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 610,
+                lineNumber: 689,
                 columnNumber: 132
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8362,7 +8637,7 @@ function InfoField({ label, value, icon }) {
                         size: 16
                     }, void 0, false, {
                         fileName: "[project]/app/ui/asoose-app.tsx",
-                        lineNumber: 610,
+                        lineNumber: 689,
                         columnNumber: 164
                     }, this),
                     " ",
@@ -8370,17 +8645,17 @@ function InfoField({ label, value, icon }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 610,
+                lineNumber: 689,
                 columnNumber: 152
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/ui/asoose-app.tsx",
-        lineNumber: 610,
+        lineNumber: 689,
         columnNumber: 104
     }, this);
 }
-_c23 = InfoField;
+_c25 = InfoField;
 function EditableField({ label, value, disabled, onChange, type = "text", extraClass = "" }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
         className: `form-field ${extraClass}`,
@@ -8389,7 +8664,7 @@ function EditableField({ label, value, disabled, onChange, type = "text", extraC
                 children: label
             }, void 0, false, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 611,
+                lineNumber: 690,
                 columnNumber: 273
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -8399,17 +8674,17 @@ function EditableField({ label, value, disabled, onChange, type = "text", extraC
                 onChange: (e)=>onChange(e.target.value)
             }, void 0, false, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 611,
+                lineNumber: 690,
                 columnNumber: 293
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/ui/asoose-app.tsx",
-        lineNumber: 611,
+        lineNumber: 690,
         columnNumber: 227
     }, this);
 }
-_c24 = EditableField;
+_c26 = EditableField;
 function ErrorState({ message, onRetry }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "panel error-state",
@@ -8418,21 +8693,21 @@ function ErrorState({ message, onRetry }) {
                 children: "!"
             }, void 0, false, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 612,
+                lineNumber: 691,
                 columnNumber: 129
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 children: "We couldn’t load this page"
             }, void 0, false, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 612,
+                lineNumber: 691,
                 columnNumber: 141
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: message
             }, void 0, false, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 612,
+                lineNumber: 691,
                 columnNumber: 176
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -8441,17 +8716,17 @@ function ErrorState({ message, onRetry }) {
                 children: "Try again"
             }, void 0, false, {
                 fileName: "[project]/app/ui/asoose-app.tsx",
-                lineNumber: 612,
+                lineNumber: 691,
                 columnNumber: 192
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/ui/asoose-app.tsx",
-        lineNumber: 612,
+        lineNumber: 691,
         columnNumber: 94
     }, this);
 }
-_c25 = ErrorState;
+_c27 = ErrorState;
 function money(value) {
     return new Intl.NumberFormat("en-NG", {
         style: "currency",
@@ -8462,7 +8737,7 @@ function money(value) {
 function titleCase(value) {
     return value.toLowerCase().replace(/\b\w/g, (letter)=>letter.toUpperCase());
 }
-var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23, _c24, _c25;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23, _c24, _c25, _c26, _c27;
 __turbopack_context__.k.register(_c, "Icon");
 __turbopack_context__.k.register(_c1, "AsooseApp");
 __turbopack_context__.k.register(_c2, "Logo");
@@ -8486,9 +8761,11 @@ __turbopack_context__.k.register(_c19, "PayoutModal");
 __turbopack_context__.k.register(_c20, "BankAccountModal");
 __turbopack_context__.k.register(_c21, "EmptyState");
 __turbopack_context__.k.register(_c22, "ProfilePage");
-__turbopack_context__.k.register(_c23, "InfoField");
-__turbopack_context__.k.register(_c24, "EditableField");
-__turbopack_context__.k.register(_c25, "ErrorState");
+__turbopack_context__.k.register(_c23, "ChangePasswordSection");
+__turbopack_context__.k.register(_c24, "PasswordField");
+__turbopack_context__.k.register(_c25, "InfoField");
+__turbopack_context__.k.register(_c26, "EditableField");
+__turbopack_context__.k.register(_c27, "ErrorState");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

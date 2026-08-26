@@ -10,6 +10,7 @@
   "/api/bookings/[bookingId]/[action]/route": "app/api/bookings/[bookingId]/[action]/route.js",
   "/api/bookings/[bookingId]/route": "app/api/bookings/[bookingId]/route.js",
   "/api/bookings/route": "app/api/bookings/route.js",
+  "/api/change-password/route": "app/api/change-password/route.js",
   "/api/dashboard/route": "app/api/dashboard/route.js",
   "/api/earnings/balance/route": "app/api/earnings/balance/route.js",
   "/api/earnings/payout/route": "app/api/earnings/payout/route.js",

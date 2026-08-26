@@ -129,6 +129,12 @@
       "namedRegex": "^/api/bookings(?:/)?$"
     },
     {
+      "page": "/api/change-password",
+      "regex": "^/api/change\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/change\\-password(?:/)?$"
+    },
+    {
       "page": "/api/dashboard",
       "regex": "^/api/dashboard(?:/)?$",
       "routeKeys": {},

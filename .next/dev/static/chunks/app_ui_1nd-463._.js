@@ -2699,12 +2699,8 @@ function PropertiesPage() {
                                         columnNumber: 526
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: [
-                                            selected.lat.toFixed(4),
-                                            ", ",
-                                            selected.lng.toFixed(4)
-                                        ]
-                                    }, void 0, true, {
+                                        children: selected.lat != null && selected.lng != null ? `${selected.lat.toFixed(4)}, ${selected.lng.toFixed(4)}` : "Coordinates not provided"
+                                    }, void 0, false, {
                                         fileName: "[project]/app/ui/asoose-app.tsx",
                                         lineNumber: 255,
                                         columnNumber: 554
@@ -2724,14 +2720,14 @@ function PropertiesPage() {
                             }, void 0, true, {
                                 fileName: "[project]/app/ui/asoose-app.tsx",
                                 lineNumber: 255,
-                                columnNumber: 625
+                                columnNumber: 707
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: selected.city.country
                             }, void 0, false, {
                                 fileName: "[project]/app/ui/asoose-app.tsx",
                                 lineNumber: 255,
-                                columnNumber: 685
+                                columnNumber: 767
                             }, this)
                         ]
                     }, void 0, true, {
@@ -3387,10 +3383,10 @@ function PropertyEditor({ property, types, cities, onClose, onSaved }) {
         "PropertyEditor.useState": ()=>property ? {
                 propertyTypeId: property.propertyTypeId,
                 name: property.name,
-                description: property.description,
+                description: property.description ?? "",
                 address: property.address,
-                lat: property.lat,
-                lng: property.lng,
+                lat: property.lat ?? 0,
+                lng: property.lng ?? 0,
                 cityId: property.city.id,
                 images: property.images,
                 amenities: property.amenities,
@@ -4323,14 +4319,14 @@ function PropertyEditor({ property, types, cities, onClose, onSaved }) {
         columnNumber: 10
     }, this);
 }
-_s5(PropertyEditor, "xQbQSgUsf/DGuNrz57hl46QR+0c=");
+_s5(PropertyEditor, "4AeMchge4t4s98/WEzfQMoc6qXQ=");
 _c11 = PropertyEditor;
 function RoomEditor({ propertyId, room, onClose, onSaved }) {
     _s6();
     const [payload, setPayload] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
         "RoomEditor.useState": ()=>room ? {
                 name: room.name,
-                description: room.description,
+                description: room.description ?? "",
                 pricePerNight: room.pricePerNight,
                 quantity: room.quantity,
                 maxGuests: room.maxGuests,
@@ -4762,7 +4758,7 @@ function RoomEditor({ propertyId, room, onClose, onSaved }) {
         columnNumber: 10
     }, this);
 }
-_s6(RoomEditor, "k2vStHQQdH1kvLo6q4ZZwIpcXsU=");
+_s6(RoomEditor, "XBMRf+Qo2EOhcxSDxlNeGVkBy7c=");
 _c12 = RoomEditor;
 function friendlyType(value) {
     return value.toLowerCase().replace(/_/g, " ").replace(/\b\w/g, (letter)=>letter.toUpperCase());

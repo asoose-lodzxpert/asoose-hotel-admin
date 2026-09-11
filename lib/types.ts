@@ -148,7 +148,7 @@ export type RoomType = {
   id: string;
   propertyId: string;
   name: string;
-  description: string;
+  description: string | null;
   pricePerNight: number;
   quantity: number;
   maxGuests: number;
@@ -165,10 +165,10 @@ export type Property = {
   propertyType: string;
   name: string;
   slug: string;
-  description: string;
+  description: string | null;
   address: string;
-  lat: number;
-  lng: number;
+  lat: number | null;
+  lng: number | null;
   city: City & { isActive?: boolean; createdAt?: string; updatedAt?: string };
   images: string[];
   image: string | null;

@@ -2660,12 +2660,8 @@ function PropertiesPage() {
                                         columnNumber: 526
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: [
-                                            selected.lat.toFixed(4),
-                                            ", ",
-                                            selected.lng.toFixed(4)
-                                        ]
-                                    }, void 0, true, {
+                                        children: selected.lat != null && selected.lng != null ? `${selected.lat.toFixed(4)}, ${selected.lng.toFixed(4)}` : "Coordinates not provided"
+                                    }, void 0, false, {
                                         fileName: "[project]/app/ui/asoose-app.tsx",
                                         lineNumber: 255,
                                         columnNumber: 554
@@ -2685,14 +2681,14 @@ function PropertiesPage() {
                             }, void 0, true, {
                                 fileName: "[project]/app/ui/asoose-app.tsx",
                                 lineNumber: 255,
-                                columnNumber: 625
+                                columnNumber: 707
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: selected.city.country
                             }, void 0, false, {
                                 fileName: "[project]/app/ui/asoose-app.tsx",
                                 lineNumber: 255,
-                                columnNumber: 685
+                                columnNumber: 767
                             }, this)
                         ]
                     }, void 0, true, {
@@ -3343,10 +3339,10 @@ function PropertyEditor({ property, types, cities, onClose, onSaved }) {
     const [payload, setPayload] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>property ? {
             propertyTypeId: property.propertyTypeId,
             name: property.name,
-            description: property.description,
+            description: property.description ?? "",
             address: property.address,
-            lat: property.lat,
-            lng: property.lng,
+            lat: property.lat ?? 0,
+            lng: property.lng ?? 0,
             cityId: property.city.id,
             images: property.images,
             amenities: property.amenities,
@@ -4281,7 +4277,7 @@ function PropertyEditor({ property, types, cities, onClose, onSaved }) {
 function RoomEditor({ propertyId, room, onClose, onSaved }) {
     const [payload, setPayload] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>room ? {
             name: room.name,
-            description: room.description,
+            description: room.description ?? "",
             pricePerNight: room.pricePerNight,
             quantity: room.quantity,
             maxGuests: room.maxGuests,
